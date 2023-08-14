@@ -430,8 +430,10 @@ ul.email li a i span {
      line-height: 60px;
      color: #fff;
      font-weight: bold;
-     padding-bottom: 30px;
+     padding-bottom: 60px;
+     padding-top: 80px;
      text-transform: uppercase;
+     font-style: italic;
 }
 
 .dream_img figure {
