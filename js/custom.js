@@ -153,7 +153,7 @@ cards[i].classList.toggle('do-flip')
 
 /*  Modal
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-// Get the modal
+// Get the modal Privacy Policy
 var ebModal = document.getElementById('myPrivacyPolicyModal');
 
 // Get the button that opens the modal
@@ -176,5 +176,32 @@ ebSpan.onclick = function() {
 window.onclick = function(event) {
     if (event.target == ebModal) {
         ebModal.style.display = "none";
+    }
+}
+
+//--------------------------------------------------------------------------------------------
+// Get the modal Terms and Conditions
+var termsModal = document.getElementById('myT&CModal');
+
+// Get the button that opens the modal
+var termsBtn = document.getElementById("myT&C");
+
+// Get the <span> element that closes the modal
+var termsSpan = document.getElementsByClassName("terms_close")[0];
+
+// When the user clicks the button, open the modal 
+termsBtn.onclick = function() {
+  termsModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+termsSpan.onclick = function() {
+  termsModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == termsModal) {
+      termsModal.style.display = "none";
     }
 }
