@@ -167,7 +167,7 @@ img {
 .logo-responsive
 {
      width: 100%;
-     max-width: 200px;
+     max-width: 150px;
      height: auto;
 }
 
@@ -1171,6 +1171,7 @@ ul.conta li a {
      padding: 20px;
      border: 1px solid #888;
      width: 80%;
+     height: 80%;
  }
  
  /* The Close Button */
@@ -1210,6 +1211,7 @@ ul.conta li a {
      padding: 20px;
      border: 1px solid #888;
      width: 80%;
+     height: 80%;
  }
  
  /* The Close Button */
